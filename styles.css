@@ -42,6 +42,10 @@
     background: none;
 }
 
+#logo:hover {
+    text-shadow: 0 0 10px #fffbb9;
+}
+
 .navbar__menu {
     display: none;
     height: 100%;
