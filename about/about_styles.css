@@ -7,6 +7,7 @@
     font-family: 'Montserrat', sans-serif;
     background: rgb(0,4,40);
     background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(137,52,37,1) 100%);
+    user-select: none;
 }
 
 
@@ -192,12 +193,36 @@
         display: flex;
     }
 
+    .about {
+        height: 95vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about__container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    
+    .title__container {
+        color: #fffbb9;
+        background: none;
+        font-size: 2rem;
+        text-shadow: 0 0 5px #fffbb9;
+        font-weight: 800;
+    }
 
     .about__content {
         color: #fffbb9;
         background: none;
-        padding: 0 50px;
-        font-size: 1.5rem;
+        padding: 0;
+        font-size: 1rem;
         text-align: center;
     }
 }
