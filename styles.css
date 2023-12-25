@@ -5,16 +5,18 @@
     scroll-behavior: smooth;
     font-family: 'Gothic A1', sans-serif;
     font-family: 'Montserrat', sans-serif;
-    background: rgb(0,4,40);
-    background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(137,52,37,1) 100%);
+    background: rgb(0,4,40) no-repeat;
+    background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(137,52,37,1) 100%) no-repeat;
     user-select: none;
+    background: url(asset/clock-bg.jpg) no-repeat center/cover;
 }
 
 
 .navbar {
     display: flex;
     height: 80px;
-    font-size: 1.2rem
+    font-size: 1.2rem;
+    background: none;
 }
 
 .navbar__container {
@@ -26,6 +28,7 @@
     padding: 0 50px;
     position: sticky;
     z-index: 999;
+    background: none;
 }
 
 .logo {
@@ -110,7 +113,7 @@
     font-size: 3rem;
     background: none;
 }
-
+/* 
 .clock__container {
     width: 50vw;
     height: 91vh;
@@ -128,7 +131,7 @@
     width: 50vw;
     filter: drop-shadow(0 0 10px #fffbb9);
     top: 250px;
-}
+} */
 
 .explore__container {
     width: 200px;
@@ -139,6 +142,7 @@
     justify-content: center;
     color: #fffbb9;
     font-size: 1.2rem;
+    font-weight: 800;
     background: none;
     border: 2px solid #fffbb9;
     border-radius: 25px;
@@ -245,9 +249,25 @@
         gap: 50px;
     }
 
-    .clock__container {
-        display: none;
+    .explore__container {
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fffbb9;
+        font-size: 1.2rem;
+        text-shadow: 0 0 50px #fffbb9;
+        font-weight: 900;
+        background: none;
+        border: 4px solid #fffbb9;
+        border-radius: 25px;
     }
+
+    /* .clock__container {
+        display: none;
+    } */
 
     .quotes {
         width: 100%;
