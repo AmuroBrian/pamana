@@ -9,7 +9,7 @@
     background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(137,52,37,1) 100%) no-repeat; */
     user-select: none;
     background-color: black;
-    background-image: url(asset/clock-bg.jpg);
+    background-image: url(../asset/clock-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -92,71 +92,105 @@
     color: #fffbb9;
 }
 
-/* main section */
+/* main section in topic */
 .main {
-    width: 50vw;
-    height: 91vh;
-    padding: 0;
-    margin: 0;
-    /* position: relative; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    overflow: hidden;
-    background: none;
-    gap: 50px;
-}
-
-.quotes {
-    width: 50vw;
-    padding-left: 20px;
-    text-align: center;
-    z-index: 5;
-    color: #fffbb9;
-    font-size: 3rem;
-    background: none;
-}
-/* 
-.clock__container {
-    width: 50vw;
-    height: 91vh;
     position: absolute;
-    right: 0;
-    overflow: hidden;
-    background: none;
+    width: 100vw;
+    height: auto;
+    top: 0;
 }
 
-#clock {
-    position: absolute;
-    background: none;
-    right: -200px;
-    z-index: 0;
-    width: 50vw;
-    filter: drop-shadow(0 0 10px #fffbb9);
-    top: 250px;
-} */
-
-.explore__container {
-    width: 200px;
-    height: 50px;
-    text-align: center;
+.topic__title {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    height: auto;
     color: #fffbb9;
-    font-size: 1.2rem;
-    font-weight: 800;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
     background: none;
-    border: 2px solid #fffbb9;
-    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+    text-shadow: 0 0 5px #fffbb9;
+    font-weight: 800;
 }
 
-.explore__container:hover {
-    cursor: pointer;
-    box-shadow: 0 0 50px #fffbb9;
-    text-shadow: 0 0 10px #fffbb9;
+.topic__image {
+    width: 500px;
+    margin: auto 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
 }
+
+span {
+    font-size: 5rem;
+    background: none;
+}
+
+.description {
+    color: #fffbb9;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    text-shadow: 0 0 50px #fffbb9;
+}
+
+.topics {
+    position: relative;
+    top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background: none;
+}
+
+.topic__image.showLeft {
+    animation: fadedLeft 1s ease;
+    opacity: 1;
+}
+
+.topic__image.showRight {
+    animation: fadedRight 1s ease;
+    opacity: 1;
+}
+
+.description.showLeft {
+    animation: fadedLeft 1s ease;
+    opacity: 1;
+    background: none;
+}
+
+.description.showRight {
+    animation: fadedRight 1s ease;
+    opacity: 1;
+    background: none;
+}
+
+
+@keyframes fadedLeft {
+    from {
+        transform: translateX(-150px);
+        opacity: 0;
+        background: none;
+    }
+}
+
+@keyframes fadedRight {
+    from {
+        transform: translateX(150px);
+        opacity: 0;
+        background: none;
+    }
+}
+
 
 
 @media screen and (max-width: 960px){
@@ -239,50 +273,105 @@
     }
 
     .main {
-        width: 100vw;
-        height: 91vh;
-        padding: 0;
-        margin: 0;
-        /* position: relative; */
         display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
-        overflow: hidden;
-        background: none;
+        justify-content: center;
+        position: absolute;
+        width: 100vw;
+        height: auto;
+        top: 0;
+        margin: 50px 0;
         gap: 50px;
     }
-
-    .explore__container {
-        width: 200px;
-        height: 50px;
-        text-align: center;
+    
+    .topic__title {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #fffbb9;
-        font-size: 1.2rem;
-        text-shadow: 0 0 50px #fffbb9;
-        font-weight: 900;
-        background: none;
-        border: 4px solid #fffbb9;
-        border-radius: 25px;
-    }
-
-    /* .clock__container {
-        display: none;
-    } */
-
-    .quotes {
         width: 100%;
-        padding-left: 20px;
+        height: auto;
         color: #fffbb9;
-        font-size: 2.5rem;
-        background: none;
-        display: flex;
+        font-size: 2rem;
         justify-content: center;
         align-items: center;
-        margin: 0 auto;
-        padding: 0 25px;
+        background: none;
+        text-align: center;
+        position: relative;
+        z-index: 100;
+        text-shadow: 0 0 5px #fffbb9;
+        font-weight: 800;
     }
+    
+    .topic__image {
+        width: 90vw;
+        border-radius: 20px;
+        box-shadow: 0 0 20px white;
+        grid-area: topic__image;
+    }
+    
+    span {
+        font-size: 5rem;
+        background: none;
+    }
+    
+    .description {
+        color: #fffbb9;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 900;
+        text-shadow: 0 0 50px #fffbb9;
+        grid-area: description;
+    }
+    
+    .topics {
+        position: relative;
+        top: 120px;
+        display: grid;
+        place-items: center;
+        align-items: center;
+        grid-template-areas: "topic__image" "description";
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        background: none;
+        gap: 20px;
+    }
+    
+    .topic__image.showLeft {
+        animation: fadedLeft 1s ease;
+        opacity: 1;
+    }
+    
+    .topic__image.showRight {
+        animation: fadedRight 1s ease;
+        opacity: 1;
+    }
+    
+    .description.showLeft {
+        animation: fadedLeft 1s ease;
+        opacity: 1;
+        background: none;
+    }
+    
+    .description.showRight {
+        animation: fadedRight 1s ease;
+        opacity: 1;
+        background: none;
+    }
+    
+    
+    @keyframes fadedLeft {
+        from {
+            transform: translateX(-150px);
+            opacity: 0;
+            background: none;
+        }
+    }
+    
+    @keyframes fadedRight {
+        from {
+            transform: translateX(150px);
+            opacity: 0;
+            background: none;
+        }
+    }
+    
 }

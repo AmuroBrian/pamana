@@ -7,11 +7,12 @@
     font-family: 'Montserrat', sans-serif;
     /* background: rgb(0,4,40) no-repeat;
     background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(137,52,37,1) 100%) no-repeat; */
-    background-color: black;
     user-select: none;
+    background-color: black;
     background-image: url(../asset/clock-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -176,7 +177,7 @@
         transition: all 0.5s ease;
         background: rgba( 139, 87, 42, 0.15 );
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 50px );
+        backdrop-filter: blur( 100px );
         -webkit-backdrop-filter: blur( 0px );
         border-radius: 10px;
     }
