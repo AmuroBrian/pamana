@@ -150,6 +150,7 @@
     background: none;
     border: 2px solid #fffbb9;
     border-radius: 25px;
+    text-decoration: none;
 }
 
 .explore__container:hover {
