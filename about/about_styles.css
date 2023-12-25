@@ -235,6 +235,7 @@
         font-size: 2rem;
         text-shadow: 0 0 5px #fffbb9;
         font-weight: 800;
+        padding-bottom: 25px;
     }
 
     .about__content {
