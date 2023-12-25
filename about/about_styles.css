@@ -7,8 +7,9 @@
     font-family: 'Montserrat', sans-serif;
     /* background: rgb(0,4,40) no-repeat;
     background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(137,52,37,1) 100%) no-repeat; */
+    background-color: black;
     user-select: none;
-    background: url(../asset/clock-bg.jpg);
+    background-image: url(../asset/clock-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -91,13 +92,15 @@
 
 .about {
     width: 100vw;
-    height: 100vh;
+    min-height: 95vh;
     display: flex;
     background: none;
 }
 
 .about__container {
+    background: none;
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,6 +147,7 @@
         position: sticky;
         z-index: 999;
         width: 100vw;
+        background: none;
     }
 
     .logo {
@@ -212,11 +216,137 @@
     }
 
     .about {
-        height: 95vh;
         width: 100vw;
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .about__container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    
+    .title__container {
+        color: #fffbb9;
+        background: none;
+        font-size: 2rem;
+        text-shadow: 0 0 5px #fffbb9;
+        font-weight: 800;
+        padding-bottom: 25px;
+    }
+
+    .about__content {
+        background: rgba( 139, 87, 42, 0.15 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 50px );
+        -webkit-backdrop-filter: blur( 50px );
+        border-radius: 10px;
+        color: #fffbb9;
+        background: none;
+        padding: 20px 5px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .content {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .navbar__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        position: sticky;
+        z-index: 999;
+        width: 100vw;
+        background: none;
+    }
+
+    .logo {
+        left: 8px;
+        position: absolute;
+    }
+
+    .navbar__menu {
+        right: 8px;
+        position: absolute;
+    }
+    
+    .menu {
+        display: table;   
+        align-items: center;
+        position: absolute;
+        text-align: center;
+        /* top: 70px;  */
+        top: -1500px;
+        width: 90vw;
+        transition: all 0.5s ease;
+    }
+
+    .menu.active {
+        top: 70px;
+        transition: all 0.5s ease;
+        background: rgba( 139, 87, 42, 0.15 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 50px );
+        -webkit-backdrop-filter: blur( 0px );
+        border-radius: 10px;
+    }
+
+    #mobile-menu {
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+
+    .bar {
+        transition: all 0.5s ease;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(1){
+        transform-origin: center;
+        transform: translateY(13px) rotate(45deg);
+        transition: all 0.5s ease;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2){
+        opacity: 0;
+        transition: all 0.5s ease;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(3){
+        transform-origin: center;
+        transform: translateY(-13px) rotate(-45deg);
+        transition: all 0.5s ease;
+    }
+
+    .menu__list {
+        margin: 25px;
+    }
+
+    .navbar__menu {
+        display: flex;
+    }
+
+    .about {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
     }
 
     .about__container {
