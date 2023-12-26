@@ -150,6 +150,7 @@ span {
     margin: 0 auto;
     flex-wrap: wrap;
     background: none;
+    cursor: pointer;
 }
 
 .topic__image.showLeft {
@@ -301,7 +302,7 @@ span {
     }
     
     .topic__image {
-        width: 90vw;
+        width: 80vw;
         border-radius: 20px;
         box-shadow: 0 0 20px white;
         grid-area: topic__image;
@@ -323,7 +324,7 @@ span {
     
     .topics {
         position: relative;
-        top: 120px;
+        /* top: 120px; */
         display: grid;
         place-items: center;
         align-items: center;
@@ -336,23 +337,25 @@ span {
     }
     
     .topic__image.showLeft {
-        animation: fadedLeft 1s ease;
+        animation: none 0s ease;
         opacity: 1;
+        background: none;
     }
     
     .topic__image.showRight {
-        animation: fadedRight 1s ease;
+        animation: none 0s ease;
         opacity: 1;
+        background: none;
     }
     
     .description.showLeft {
-        animation: fadedLeft 1s ease;
+        animation: none 0s ease;
         opacity: 1;
         background: none;
     }
     
     .description.showRight {
-        animation: fadedRight 1s ease;
+        animation: none 0s ease;
         opacity: 1;
         background: none;
     }
