@@ -24,6 +24,7 @@ observerLeft.observe(slides[0]);
 observerLeft.observe(slides[2]);
 observerLeft.observe(description[1]);
 observerLeft.observe(description[3]);
+observerLeft.observe(slides[4]);
 
 const observerRight = new IntersectionObserver((entries) =>{
     entries.forEach(entry => {
@@ -38,11 +39,13 @@ observerRight.observe(slides[1]);
 observerRight.observe(slides[3]);
 observerRight.observe(description[0]);
 observerRight.observe(description[2]);
+observerRight.observe(description[4]);
 
 const precolonial = document.querySelector('#precolonial');
 const spanish = document.querySelector('#spanish');
 const american = document.querySelector('#american');
 const postwar = document.querySelector('#postwar');
+const modern = document.querySelector('#modern');
 
 precolonial.addEventListener('click',() => {
     window.location.href = "../precolonial/precolonial.html";
@@ -58,4 +61,8 @@ american.addEventListener('click', ()=>{
 
 postwar.addEventListener('click', ()=>{
     window.location.href = "../postwar/postwar.html";
+})
+
+modern.addEventListener('click', ()=>{
+    window.location.href = "../modern/modern.html";
 })

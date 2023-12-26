@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /* background: rgb(0,4,40) no-repeat;
+    background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(137,52,37,1) 100%) no-repeat; */
+    user-select: none;
+    background-color: black;
+    background-image: url(../asset/clock-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.navbar {
+    display: flex;
+    height: 80px;
+    font-size: 1.2rem;
+    background: none;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+    position: sticky;
+    z-index: 999;
+    background: none;
+}
+
+.logo {
+    height: 100%;
+    background: none;
+}
+
+#logo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #fffbb9;
+    background: none;
+}
+
+#logo:hover {
+    text-shadow: 0 0 10px #fffbb9;
+}
+
+.navbar__menu {
+    display: none;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    flex-direction: column;
+    gap: 10px;
+    background: transparent;
+}
+
+.bar {
+    width: 50px;
+    border: 2px solid white;
+}
+
+.menu {
+    display: flex;
+    gap: 100px;
+    background: none;
+}
+
+.menu__list {
+    text-decoration: none;
+    background: none;
+    list-style-type: none;
+}
+
+.menus {
+    background: none;
+    text-decoration: none;
+    color: white;
+}
+
+.menus:hover {
+    color: #fffbb9;
+}
+
+@media screen and (max-width: 960px){
+    .navbar__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        position: sticky;
+        z-index: 999;
+        width: 100vw;
+    }
+
+    .logo {
+        left: 25px;
+        position: absolute;
+    }
+
+    .navbar__menu {
+        right: 25px;
+        position: absolute;
+    }
+    
+    .menu {
+        display: table;   
+        align-items: center;
+        position: absolute;
+        text-align: center;
+        /* top: 70px;  */
+        top: -1500px;
+        width: 90vw;
+        transition: all 0.5s ease;
+    }
+
+    .menu.active {
+        top: 70px;
+        transition: all 0.5s ease;
+        background: rgba( 139, 87, 42, 0.15 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 100px );
+        -webkit-backdrop-filter: blur( 100px );
+        border-radius: 10px;
+    }
+
+    #mobile-menu {
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+
+    .bar {
+        transition: all 0.5s ease;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(1){
+        transform-origin: center;
+        transform: translateY(13px) rotate(45deg);
+        transition: all 0.5s ease;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2){
+        opacity: 0;
+        transition: all 0.5s ease;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(3){
+        transform-origin: center;
+        transform: translateY(-13px) rotate(-45deg);
+        transition: all 0.5s ease;
+    }
+
+    .menu__list {
+        margin: 25px;
+    }
+
+    .navbar__menu {
+        display: flex;
+    }
+}
