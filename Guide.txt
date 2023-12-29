@@ -1,0 +1,89 @@
+These are the following format that you could use for this project:
+NOTE: JUST COPY PASTE WALANG IIBAHIN DTO KUNDI CONTENT LANG
+1. Only Paragraph
+Format:
+<div class="container">
+    <p>CONTENT</p>
+</div>
+
+2. Picture with Paragraph
+<div class="container">
+    <div class="pic__container">
+        <img src="../asset/(name ng picture)" class = "picture">
+    </div>
+    <div class="content__container">
+        CONTENT
+    </div>
+</div>
+
+Sa Image example. NOTE: Ang iibahin lang dto is ung (name ng picture) babase sa name ng image file (only jpg and png).
+<img src = "../asset/american.jpg" class = "picture">
+
+NOTE: Sa case number 2 Picture with paragraph pede nyo baliktaring ung dalawang div namely: pic__container and content__container.
+Example:
+
+<div class="container">
+    <div class="content__container">
+        CONTENT
+    </div>
+    <div class="pic__container">
+        <img src="../asset/(name ng picture)" class = "picture">
+    </div>
+</div>
+
+
+-------------------------------------------------------------------------------------------------------------
+Sample:
+    <div class="main">
+        <div class="title">PRECOLONIAL</div>
+        <div class="main__content">
+            <!-- Dito mag lagay ng mga divs -->
+            <div class="container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor optio beatae et aliquam, accusantium mollitia excepturi. Iure saepe pariatur tempora unde. Vero, voluptates. Pariatur doloremque fuga vitae voluptates labore eos!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit facere eius odio sequi expedita. Facere veritatis tenetur ipsum explicabo odio quasi magni corporis non, rem dolorum nesciunt atque aliquam nulla.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur facilis laborum adipisci, perferendis odio iste? Reprehenderit illum, iure ratione aspernatur earum laudantium optio repellat esse, voluptate, blanditiis vitae distinctio?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officiis deserunt cupiditate molestias saepe nihil repellendus illum, voluptas ipsa fugiat consequuntur totam numquam, culpa quidem unde asperiores cumque veniam est?
+                </p>
+            </div>
+            <!-- break -->
+            <div class="container">
+                <div class="pic__container">
+                    <img src="../asset/american.jpg" class = "picture" alt="">
+                </div>
+                <div class="content__container">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius totam ea excepturi ut fugit natus? Esse incidunt molestias assumenda, impedit voluptate saepe, sed, laboriosam mollitia error soluta dolorum? Voluptate, eligendi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias officiis cumque nostrum amet sed tempore, possimus ipsum ullam, rem unde veritatis iste velit quo delectus minima laudantium adipisci veniam esse.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum mollitia aperiam consequuntur fugit fugiat perferendis, obcaecati blanditiis, consectetur voluptas, ab tenetur non deserunt? Voluptatem corporis similique non sint nesciunt beatae?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, cumque similique deleniti sequi porro qui sit veritatis. Beatae aperiam eos quaerat repellendus nemo facilis sint quidem, ex saepe repudiandae illum.
+                </div>
+            </div>
+            <!-- break -->
+            <div class="container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor optio beatae et aliquam, accusantium mollitia excepturi. Iure saepe pariatur tempora unde. Vero, voluptates. Pariatur doloremque fuga vitae voluptates labore eos!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit facere eius odio sequi expedita. Facere veritatis tenetur ipsum explicabo odio quasi magni corporis non, rem dolorum nesciunt atque aliquam nulla.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur facilis laborum adipisci, perferendis odio iste? Reprehenderit illum, iure ratione aspernatur earum laudantium optio repellat esse, voluptate, blanditiis vitae distinctio?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officiis deserunt cupiditate molestias saepe nihil repellendus illum, voluptas ipsa fugiat consequuntur totam numquam, culpa quidem unde asperiores cumque veniam est?
+                </p>
+            </div>
+            <div class="container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor optio beatae et aliquam, accusantium mollitia excepturi. Iure saepe pariatur tempora unde. Vero, voluptates. Pariatur doloremque fuga vitae voluptates labore eos!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit facere eius odio sequi expedita. Facere veritatis tenetur ipsum explicabo odio quasi magni corporis non, rem dolorum nesciunt atque aliquam nulla.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur facilis laborum adipisci, perferendis odio iste? Reprehenderit illum, iure ratione aspernatur earum laudantium optio repellat esse, voluptate, blanditiis vitae distinctio?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officiis deserunt cupiditate molestias saepe nihil repellendus illum, voluptas ipsa fugiat consequuntur totam numquam, culpa quidem unde asperiores cumque veniam est?
+                </p>
+            </div>
+
+            <div class="container">
+                <div class="content__container">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius totam ea excepturi ut fugit natus? Esse incidunt molestias assumenda, impedit voluptate saepe, sed, laboriosam mollitia error soluta dolorum? Voluptate, eligendi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias officiis cumque nostrum amet sed tempore, possimus ipsum ullam, rem unde veritatis iste velit quo delectus minima laudantium adipisci veniam esse.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum mollitia aperiam consequuntur fugit fugiat perferendis, obcaecati blanditiis, consectetur voluptas, ab tenetur non deserunt? Voluptatem corporis similique non sint nesciunt beatae?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, cumque similique deleniti sequi porro qui sit veritatis. Beatae aperiam eos quaerat repellendus nemo facilis sint quidem, ex saepe repudiandae illum.
+                </div>
+                <div class="pic__container">
+                    <img src="../asset/american.jpg" class = "picture" alt="">
+                </div>
+            </div>
+            <!-- Ending Hanggang dito lang kayo mag code -->
+        </div>
+    </div>
