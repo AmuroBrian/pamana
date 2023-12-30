@@ -43,6 +43,13 @@
     align-items: center;
 }
 
+.par__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 p {
     /* color: white; */
     color: #fffbb9;
@@ -60,6 +67,8 @@ p {
     background: none;
     flex-direction: column;
     color: #fffbb9;
+    padding: 0 20px;
+    text-align: center;
 }
 
 .picture {
