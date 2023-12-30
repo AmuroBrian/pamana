@@ -9,7 +9,8 @@ Format:
 2. Picture with Paragraph
 <div class="container">
     <div class="pic__container">
-        <img src="../asset/(name ng picture)" class = "picture">
+        <img src="../asset/(name ng picture)" class = "picture"><br>
+        (References)
     </div>
     <div class="content__container">
         CONTENT
@@ -27,7 +28,8 @@ Example:
         CONTENT
     </div>
     <div class="pic__container">
-        <img src="../asset/(name ng picture)" class = "picture">
+        <img src="../asset/(name ng picture)" class = "picture"><br>
+        (References)
     </div>
 </div>
 
@@ -48,7 +50,8 @@ Sample:
             <!-- break -->
             <div class="container">
                 <div class="pic__container">
-                    <img src="../asset/american.jpg" class = "picture" alt="">
+                    <img src="../asset/american.jpg" class = "picture" alt=""><br>
+                    (References)
                 </div>
                 <div class="content__container">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius totam ea excepturi ut fugit natus? Esse incidunt molestias assumenda, impedit voluptate saepe, sed, laboriosam mollitia error soluta dolorum? Voluptate, eligendi.
@@ -81,7 +84,8 @@ Sample:
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, cumque similique deleniti sequi porro qui sit veritatis. Beatae aperiam eos quaerat repellendus nemo facilis sint quidem, ex saepe repudiandae illum.
                 </div>
                 <div class="pic__container">
-                    <img src="../asset/american.jpg" class = "picture" alt="">
+                    <img src="../asset/american.jpg" class = "picture" alt=""><br>
+                    (References)
                 </div>
             </div>
             <!-- Ending Hanggang dito lang kayo mag code -->

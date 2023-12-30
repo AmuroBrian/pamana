@@ -58,6 +58,8 @@ p {
     justify-content: center;
     align-items: center;
     background: none;
+    flex-direction: column;
+    color: #fffbb9;
 }
 
 .picture {
@@ -92,6 +94,11 @@ p {
     .pic__container {
         width: 100%;
         grid-area: pic__container;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fffbb9;
     }
     .content__container {
         width: 100%;
