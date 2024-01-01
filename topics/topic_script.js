@@ -44,8 +44,8 @@ observerRight.observe(description[4]);
 const precolonial = document.querySelector('#precolonial');
 const spanish = document.querySelector('#spanish');
 const american = document.querySelector('#american');
+const japanese = document.querySelector('#japanese');
 const postwar = document.querySelector('#postwar');
-const modern = document.querySelector('#modern');
 
 precolonial.addEventListener('click',() => {
     window.location.href = "../precolonial/precolonial.html";
@@ -59,10 +59,10 @@ american.addEventListener('click', ()=>{
     window.location.href = "../american/american.html";
 })
 
-postwar.addEventListener('click', ()=>{
-    window.location.href = "../postwar/postwar.html";
+japanese.addEventListener('click', ()=>{
+    window.location.href = "../japanese/japanese.html";
 })
 
-modern.addEventListener('click', ()=>{
-    window.location.href = "../modern/modern.html";
+postwar.addEventListener('click', ()=>{
+    window.location.href = "../postwar/postwar.html";
 })
