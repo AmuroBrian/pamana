@@ -72,6 +72,14 @@ ul {
     font-size: 1.2rem;
 }
 
+.reference {
+    width: 100%;
+}
+
+li {
+    background: none;
+}
+
 .pic__container {
     width: 50%;
     height: auto;
