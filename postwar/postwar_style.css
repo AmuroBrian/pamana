@@ -94,6 +94,58 @@
     color: #fffbb9;
 }
 
+.roxas__container {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+    background: none;
+}
+
+.roxas {
+    width: 80%;
+    height: 300px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px white;
+}
+
+.nationalism {
+    width: 70%;
+    height: 200px;
+}
+
+.nationalism__cont {
+    align-items: start;
+}
+
+.verstehen {
+    width: 60%;
+    height: 200px;
+}
+
+.education {
+    width: 60%;
+    height: 200px;
+}
+
+.amorsolo {
+    height: 400px;
+}
+
+.manansala {
+    width: 70%;
+}
+
+.cabreras_paint {
+    height: 400px;
+    width: 70%;
+}
+
+.javier {
+    height: 400px;
+}
+
 @media screen and (max-width: 960px){
     .navbar__container {
         display: flex;
@@ -170,5 +222,39 @@
 
     .navbar__menu {
         display: flex;
+    }
+
+    .roxas__container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .roxas {
+        width: 100%;
+        height: 200px;
+    }
+    .edsa {
+        width: 100%;
+    }
+
+    .nationalism {
+        width: 100%;
+        height: 200px;
+    }
+    .verstehen {
+        width: 100%;
+        height: auto;
+    }
+    .education {
+        width: 100%;
+        height: auto;
+    }
+
+    .modern__day__font {
+        font-size: 1.4rem;
+    }
+    .manansala {
+        width: 100%;
     }
 }

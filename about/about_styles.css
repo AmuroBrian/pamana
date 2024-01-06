@@ -126,7 +126,7 @@
     -webkit-backdrop-filter: blur( 50px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    padding: 25px 100px;
+    padding: 25px 25px;
     font-size: 1.5rem;
     text-align: justify;
     display: flex;
@@ -253,7 +253,7 @@
         border-radius: 10px;
         color: #fffbb9;
         background: none;
-        padding: 20px 5px;
+        padding: 20px 20px;
         font-size: 1rem;
         text-align: justify;
     }
@@ -378,7 +378,7 @@
         border-radius: 10px;
         color: #fffbb9;
         background: none;
-        padding: 20px 5px;
+        padding: 20px 20px;
         font-size: 1rem;
         text-align: justify;
     }

@@ -109,6 +109,12 @@ li {
     font-size: 1.2rem;
 }
 
+.ref__list {
+    text-align: left;
+    text-wrap: wrap;
+    width: 100%;
+}
+
 @media screen and (max-width: 960px){
     
     .container {
@@ -135,6 +141,7 @@ li {
         align-items: center;
         flex-direction: column;
         color: #fffbb9;
+        position: relative;
     }
     ul {
         font-size: 1rem;

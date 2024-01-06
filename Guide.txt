@@ -91,3 +91,17 @@ Sample:
             <!-- Ending Hanggang dito lang kayo mag code -->
         </div>
     </div>
+
+-----------------------------
+<ul class = "ref__list">
+                    <li>"Nationalism in the Philippines" by Resil Mojares (https://www.asianstudies.org/articles/nationalism-philippines/) </li>
+                    <li>"The Philippine Diaspora: A Historical Overview" by Edna Bonacich (https://migrationinformation.org/usfocus/articles/philippine-diaspora-historical-overview)</li>
+                    <li>"Religious Syncretism in the Philippines" by Susan A. Long (https://www.researchgate.net/publication/281708464_Religious_Syncretism_in_the_Philippines) </li>
+                    <li>"Education in the Philippines: A Brief History" by Maria Serena Diokno (https://www.researchgate.net/publication/322509557_Education_in_the_Philippines_A_Brief_History)</li>
+                    <li>"The Legacy of World War II in the Philippines" by Michael Charney (https://www.jstor.org/stable/2657490)
+                    "The Impact of World War II on Philippine Society and Culture" by Maria Serena Diokno (https://www.researchgate.net/publication/319873684_The_Impact_of_World_War_II_on_Philippine_Society_and_Culture)</li>
+                    <li>"The Sinulog Festival: A Celebration of Religious Syncretism in the Philippines" by Maria Serena Diokno (https://www.researchgate.net/publication/322510475_The_Sinulog_Festival_A_Celebration_of_Religious_Syncretism_in_the_Philippines) </li>
+                    <li>https://21stcenturylitph.wordpress.com/introduction-to-philippine-literature/  </li>
+                    <li>https://ncca.gov.ph/about-ncca-3/subcommissions/subcommission-on-the-arts-sca/literary-arts/philippine-literature-in-the-post-war-and-contemporary-period/</li>
+                    <li>https://www.studocu.com/ph/document/pampanga-state-agricultural-university/survey-of-philippine-literature-in-english/introduction-philippine-literature/12181125  </li>
+                </ul>
