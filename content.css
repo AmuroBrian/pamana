@@ -115,6 +115,10 @@ li {
     width: 100%;
 }
 
+strong {
+    background: none;
+}
+
 @media screen and (max-width: 960px){
     
     .container {

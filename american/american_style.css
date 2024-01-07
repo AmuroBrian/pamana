@@ -94,6 +94,77 @@
     color: #fffbb9;
 }
 
+.american_flag {
+    height: 400px;
+}
+
+.xmas_tree {
+    height: 400px;
+}
+
+.portrait {
+    height: 400px;
+}
+
+.writer {
+    width: 60%;
+    height: 400px;
+}
+
+.writer__container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    background: none;
+    grid-template-areas: "writer1 writer2" "writer3 writer3";
+}
+
+.writer1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: none;
+    width: 100%;
+    grid-area: writer1;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.writer2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: none;
+    width: 100%;
+    grid-area: writer2;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
+
+.writer3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: none;
+    width: 100%;
+    grid-area: writer3;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.writer__content {
+    width: 100%;    
+}
+
 @media screen and (max-width: 960px){
     .navbar__container {
         display: flex;
@@ -170,5 +241,19 @@
 
     .navbar__menu {
         display: flex;
+    }
+
+    .writer__container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .writer {
+        width: 100%;
+        height: 400px;
     }
 }
